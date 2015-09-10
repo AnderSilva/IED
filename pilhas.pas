@@ -3,7 +3,7 @@ unit pilhas;
 interface
 
    const max   = 100;    {maximo de itens na pilha}
-   type  titem = integer;   {tipo dos itens da pilha}
+   type  titem = real;   {tipo dos itens da pilha}
          pilha = record
                     topo: integer;
                     memo: array[1..max] of titem;
